@@ -1,0 +1,48 @@
+h1 {
+   color: #f10e0e;
+   border:solid;
+   margin:50px
+}
+body{
+    background-color:#add8e6
+}
+.rhead{
+    display:flex;
+    justify-content:center;
+    border:solid
+}
+.new1{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap
+}
+.chead{
+    text-align:center
+}
+.rsocial{
+    display:flex;
+    justify-content:flex-end
+}
+.shead a{
+    margin-right:10px
+}
+a:link{
+    color:red
+}
+a:visited{
+    color:rgb(24, 5, 2)
+}
+.nc{
+    position:relative
+}
+.nc p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+color:red
+}
+.nc:hover p{
+    opacity:1
+}
